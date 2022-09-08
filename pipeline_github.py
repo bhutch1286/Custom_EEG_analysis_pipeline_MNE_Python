@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import mne
 from os.path import join
 
-directory = 'F:/Phd year 3/n400 study/reanalysis_june_2021/OSF/EEG raw data/raw data/downsample_python'
+directory = 'F:/OSF/EEG raw data/raw data/downsample_python'
 save_directory_averages = directory + '/grand_averages'
 figures_path = directory + '/figures'
 os.chdir(directory)
@@ -29,7 +29,7 @@ ch_dict = {'EXG1': 'misc',
 N400_events = dict(related_w1_p1=111, related_w1_p2=112,related_w1_p3=113,
                 related_w2_p1=211, related_w2_p2=212, related_w2_p3=213,
                 unrelated_w1_p1=121, unrelated_w1_p2=122, unrelated_w1_p3=123,
-                unrelated_w2_p1=221, unrelated_w2_p2=222, unrelated_w2_p3=223) #use this one instead (i think?)
+                unrelated_w2_p1=221, unrelated_w2_p2=222, unrelated_w2_p3=223) #use this one instead
 
 low_freq = 0.2
 high_freq = 30
@@ -368,4 +368,5 @@ grand_average_evokeds(evoked_data_all, save_directory_averages, high_freq)
     # reference function (goal is to implement PREP robust median reference here)
     # fix the issue with plot commands
     # add in overwrite feature to all functions
-    #ICA fit suggests high pass filtering but no baseline correction; fix
+    # ICA fit suggests high pass filtering but no baseline correction; fix
+    # add in decoding component
