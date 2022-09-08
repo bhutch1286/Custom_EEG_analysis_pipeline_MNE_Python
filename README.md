@@ -3,9 +3,9 @@ Customised EEG processing pipeline for flexible analysis of EEG datasets with MN
 
 Requires MNE Python installed: https://mne.tools/stable/index.html
 
-Work in progress.
+Work in progress!
 
 Still to implement:
-ICA
-epoching
-averages
+- plotting needs fixing
+- adding PREP for referencing
+- decoding
