@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Oct  4 08:09:59 2022
-
-@author: blu12
+@author: bhutch1286
 
 "DO" functions, includes functions for processing, analysis, and plotting
 
