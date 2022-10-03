@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Oct  4 08:08:44 2022
+Created on Wed Jul 6 15:24:37 2022
 
-@author: blu12
+@author: bhutch1286
 """
 from __future__ import print_function
 
@@ -57,7 +57,7 @@ def read_ica_epochs(name, directory, high_freq):
     ica_epochs_name = name + '_' + str(high_freq) + '_Hz' + '-ica-epo.fif'
     ica_epochs_path = join(directory, ica_epochs_name)
     ica_epochs = mne.read_epochs(ica_epochs_path)
-    return(ica_epochs)
+    return ica_epochs
 
 def read_evokeds(name, directory, high_freq):
     evokeds_name = name + '_' + str(high_freq) + '_Hz' + '-ave.fif' 
