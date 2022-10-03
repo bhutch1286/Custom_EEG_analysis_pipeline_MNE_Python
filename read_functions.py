@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Jul 6 15:24:37 2022
-
 @author: bhutch1286
 """
 from __future__ import print_function
