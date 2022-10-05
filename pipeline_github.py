@@ -150,19 +150,11 @@ for evoked in evoked_data:
 #grand_average_evokeds() #outside of participant for loop
 grand_average_evokeds(evoked_data_all, save_directory_averages, high_freq)
 
-#SUCCESS SO FAR!
+#success so far! :)
 
-        #run_ica(name, directory, high_freq)
-        #plot_ica(name, directory, high_freq, subject, save_plots, figures_path)
-        #apply_ica(name, directory, high_freq)
-        #plot_epochs_image(name, directory, high_freq, subject, save_plots, figures_path)
-        #get_evokeds(name, directory, high_freq)
-        #plot_evokeds(name, directory, high_freq, subject, save_plots,figures_path)
-#six steps left
 
 #to do list:
-    # fix the thingy with plot evoked
+    # fix plot functions
     # add in overwrite feature to all functions
-    #RuntimeWarning: The epochs you passed to ICA.fit() were baseline-corrected. However, we suggest to fit ICA only on data that has been high-pass filtered, but NOT baseline-corrected.
-    #
+    #ICA.fit suggests using high-pass filtered data but not baseline correcting, where data have been baseline corrected. Fix
 
