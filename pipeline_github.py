@@ -24,7 +24,7 @@ Do you want to use a custom directory (e.g., on an external HD) or just create a
     0 = latter
 """
 directory_wanted = 1
-directory = 'F:/Phd year 3/n400 study/reanalysis_june_2021/OSF/EEG raw data/raw data/downsample_python' #put your custom directory here
+directory = 'F:/n400 study/OSF/EEG raw data/' #put your custom directory here
 
 #-------------------------Project Environment---------------------------------#
 
